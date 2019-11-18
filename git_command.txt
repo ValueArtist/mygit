@@ -2,3 +2,7 @@ git status   //查看
 git add .    //将所在目录下所有文件添加
 git commit -m '注释'  //提交代码
 git push       //提交代码至服务器
+
+
+git reflog 查看操作日志，出现对应的版本号，可以恢复到任意版本
+git reset --hard "id"  恢复版本

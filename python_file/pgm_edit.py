@@ -28,7 +28,7 @@ def pgm_crop(f, f_n, t):
 
 
 '''raw图crop操作, 两种方法，第一种方法利用Image的crop方法，直接调用；
-   第二种方法利用numpy数组里的操作，较复杂，但能熟悉处理过程'''
+   第二种方法利用numpy数组里的操作，较复杂，但处理过程清晰'''
 if __name__ == '__main__':
     # file = 'C:/Users/y/Desktop/1111/LSC/raw-1632x1224-870-128-1-20170805091447-LSC-D65.pgm'
     # im = Image.open(file)
