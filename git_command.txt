@@ -1,0 +1,4 @@
+git status   //查看
+git add .    //将所在目录下所有文件添加
+git commit -m '注释'  //提交代码
+git push       //提交代码至服务器
